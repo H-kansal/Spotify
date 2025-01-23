@@ -1,0 +1,19 @@
+.invertImage{
+    filter: invert(1);
+}
+
+.rounded{
+    border-radius: 30px;
+}
+
+.background-elevated-base{
+    background-color: #1f1f1f;
+}
+
+.textcolor{
+    color: white;
+}
+
+.rounded-image{
+    border-radius: 50%;
+}

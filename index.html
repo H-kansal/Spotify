@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utilityCss.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="leftheader">
+                <image src="./images/spotifylogo.ico" alt="logo" id="logoimage" class=""></image>
+            <div class="homeLogo rounded background-elevated-base">
+                <image src="./images/home.svg" alt="home" class="invertImage"></image>
+            </div>
+            <div class="hamburger">
+                <img src="./images/hamburger.svg" alt="" class="invertImage" id="hamburgerimg">
+            </div>
+            <div class="searchBar background-elevated-base rounded">
+                <img src="./images/search.svg" alt="search" class="invertImage"></img>
+                 <input type="searchText" placeholder="Search?" class="background-elevated-base">
+            </div>
+            </div>
+           <div class="rightheader">
+            <div class="signup">
+                <h4 class="textcolor">Sign up</h4>
+            </div>
+            <div class="login">
+                <h4>Log in</h4>
+            </div>
+           </div>
+        </header>
+
+        <main class="Main">
+            <section class="sectionLeft">
+                <div class="library">
+                    <img src="./images/library.svg" alt="library" class="invertImage">
+                    <p class="textcolor">Your Library</p>
+                    <img src="./images/cross.svg" class="invertImage cross" alt="">
+                </div>
+                    <ul class="songList">
+                    </ul>
+                <div class="leftfooter background-elevated-base">
+                    <a href="#">Legal</a>
+                    <a href="#">Safety&Privacy Center</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Cookies</a>
+                    <a href="#">About Ads</a>
+                    <a href="#">Accessibility</a>
+                </div>
+            </section>
+            <section class="sectionright">
+               <div class="artistSection">
+                  
+                  
+               </div>
+            </section>
+        </main>
+
+        <section class="playButtons ">
+            <div class="buttons rounded">
+                <p id="songName" class="textcolor"></p>
+                 <div class="Allbuttons">
+                    <button id="prev" class="invertImage"><img src="./images/skip_previous_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt=""></button>
+                    <button id="play" class="invertImage"><img src="./images/play_arrow_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt=""></button>
+                    <button id="next" class="invertImage"><img src="./images/skip_next_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt=""></button>
+                 </div>
+                <div class="timeVolume">
+                   <p id="songTime" class="textcolor">00:00/00:00</p>
+                    <div class="volume">
+                        <button id="volumeButton" class="invertImage"><img  src="./images/volume_up_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt=""></button>
+                        <input type="range" id="volumerange">
+                    </div>
+                </div>
+            </div>
+            <div class="playbar">
+                <div class="line"></div>
+                <div class="circle rounded"></div>
+            </div>
+            <div>
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
